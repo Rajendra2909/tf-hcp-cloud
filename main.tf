@@ -11,6 +11,8 @@ terraform {
 provider "aws" {
   region = var.region
 }
+
+/*
 resource "aws_vpc" "vcs_driven_vpc" {
   cidr_block = var.cidr_block
   enable_dns_hostnames = "true"
@@ -20,3 +22,4 @@ resource "aws_vpc" "vcs_driven_vpc" {
     ENV = "prod"
   }
 }
+*/
