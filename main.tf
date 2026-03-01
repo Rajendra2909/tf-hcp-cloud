@@ -17,5 +17,6 @@ resource "aws_vpc" "vcs_driven_vpc" {
   enable_dns_support = "true"
   tags = {
     Name = "vcs_driven_vpc"
+    ENV = "prod"
   }
 }
